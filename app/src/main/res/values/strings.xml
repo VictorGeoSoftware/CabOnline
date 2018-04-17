@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CabOnlineTest</string>
+    <string name="title_activity_maps">Stores</string>
+    <string name="cab_online">Cab Online</string>
+    <string name="test">Test sample app</string>
+    <string name="loading_data">loading data</string>
+    <string name="blogs">Blogs</string>
+    <string name="blog">Blog</string>
+    <string name="photos">Photos</string>
+    <string name="stores">Stores</string>
+</resources>

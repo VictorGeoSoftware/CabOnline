@@ -1,0 +1,214 @@
+{
+    "kind": "blogger#postList",
+    "items": [
+        {
+            "kind": "blogger#post",
+            "id": "738097307410258659",
+            "blog": {
+                "id": "3213900"
+            },
+            "published": "2012-06-19T17:29:00-07:00",
+            "updated": "2013-04-18T17:03:49-07:00",
+            "etag": "\"tCegCRaUD_llG4Ci20eREslQYjU/dGltZXN0YW1wOiAxMzY2MzI5ODI5MjY4Cm9mZnNldDogLTI1MjAwMDAwCg\"",
+            "url": "http://blogger-developers.googleblog.com/2012/06/blogger-api-v3.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/738097307410258659",
+            "title": "Blogger API v3",
+            "content": "<p>One of the most requested features that developers have for the Blogger JSON API is the ability to create posts. So have a quick guess what the following HTTP request does?</p>\n\n<pre>\nPOST https://www.googleapis.com/blogger/v3/blogs/8070105920543249955/posts/ HTTP/1.0\nHost: www.googleapis.com\nAuthorization: Bearer &lt;OAuth2 key>\nContent-Type: application/json\n\n{\n  \"kind\": \"blogger#post\",\n  \"blog\": {\n    \"id\": \"8070105920543249955\"\n  },\n  \"title\": \"A new post\",\n  \"content\": \"With &lt;b>exciting&lt;/b> content...\"\n}\n</pre>\n\n<p>That’s right, Blogger API v3 gives you the ability to <a href=\"https://developers.google.com/blogger/docs/3.0/reference/posts/insert\">create posts</a>! Oh, and <a href=\"https://developers.google.com/blogger/docs/3.0/reference/posts/update\">edit</a>, <a href=\"https://developers.google.com/blogger/docs/3.0/reference/posts/delete\">delete</a> and <a href=\"https://developers.google.com/blogger/docs/3.0/reference/posts/search\">search</a> them as well!</p>\n\n<p>There is documentation that covers all this new functionality. Firstly we have a <a href=\"https://developers.google.com/blogger/docs/3.0/getting_started\">Getting Started</a> document that gives you an overview of using the API. Then there is a more detailed <a href=\"https://developers.google.com/blogger/docs/3.0/using\">Using Blogger API</a> guide that shows how you would use the API. Finally the <a href=\"https://developers.google.com/blogger/docs/3.0/reference/\">API Reference</a> that covers the fine details, like argument and result specifications for all the calls.</p>\n\n<p>If you have any questions about how to use this new API, please join in the discussion on the <a href=\"https://groups.google.com/forum/?fromgroups#!forum/bloggerdev\">Blogger Developer group</a>.</p>",
+            "author": {
+                "id": "g112374322230920073195",
+                "displayName": "Google Blogs",
+                "url": "https://www.blogger.com/profile/08434147677241700960",
+                "image": {
+                    "url": "//lh3.googleusercontent.com/-SMZmHeOVbFs/AAAAAAAAAAI/AAAAAAAATk0/uPjbSFD-07k/s35-c/photo.jpg"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/738097307410258659/comments"
+            }
+        },
+        {
+            "kind": "blogger#post",
+            "id": "1387873546480002228",
+            "blog": {
+                "id": "3213900"
+            },
+            "published": "2012-03-23T01:58:00-07:00",
+            "updated": "2013-04-18T17:03:51-07:00",
+            "etag": "\"tCegCRaUD_llG4Ci20eREslQYjU/dGltZXN0YW1wOiAxMzY2MzI5ODMxNzA2Cm9mZnNldDogLTI1MjAwMDAwCg\"",
+            "url": "http://blogger-developers.googleblog.com/2012/03/blogger-documentation-has-moved-to.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/1387873546480002228",
+            "title": "Blogger Documentation has moved to developers.google.com",
+            "content": "Blogger documentation has a new home: it has moved to <a href=\"https://developers.google.com/blogger/\">developers.google.com/blogger</a>!<br />\n<br />\nI have re-arranged the documentation a little to make it easier to navigate, but it is largely the same documentation you will remember from <a href=\"http://code.google.com/apis/blogger\">code.google.com/apis/blogger</a>. If you find anything is out of place or hard to find, please let us know on the <a href=\"https://groups.google.com/forum/#!forum/bloggerdev\">Blogger Developer forum</a>.",
+            "author": {
+                "id": "g112374322230920073195",
+                "displayName": "Google Blogs",
+                "url": "https://www.blogger.com/profile/08434147677241700960",
+                "image": {
+                    "url": "//lh3.googleusercontent.com/-SMZmHeOVbFs/AAAAAAAAAAI/AAAAAAAATk0/uPjbSFD-07k/s35-c/photo.jpg"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/1387873546480002228/comments"
+            }
+        },
+        {
+            "kind": "blogger#post",
+            "id": "237676474877526514",
+            "blog": {
+                "id": "3213900"
+            },
+            "published": "2011-09-08T01:59:00-07:00",
+            "updated": "2011-09-08T01:59:58-07:00",
+            "etag": "\"tCegCRaUD_llG4Ci20eREslQYjU/dGltZXN0YW1wOiAxMzE1NDcyMzk4MzkyCm9mZnNldDogLTI1MjAwMDAwCg\"",
+            "url": "http://blogger-developers.googleblog.com/2011/09/blogger-json-api-now-available.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/237676474877526514",
+            "title": "Blogger JSON API now available",
+            "content": "Today we’re announcing the public availability of the Blogger JSON API we <a href=\"http://www.google.com/events/io/2011/sessions/building-a-business-web-presence-using-blogger-apis.html\">spoke about at this year’s Google I/O</a>. The focus of this release is to make it easier to build applications that interoperate with Blogger by using a lightweight JSON syntax.<br />\n<br />\nOne of the driving reasons for this release is to recognize how much the world has changed during the lifetime of Blogger. Where once we built everything as desktop applications, we now spend our time building full-blown applications inside the browser frame using JavaScript and HTML5 apps.<br />\n<br />\nTo start using the Blogger JSON API, sign in to the <a href=\"https://code.google.com/apis/console\">Google API Console</a> and request Blogger API access. This will take you to a form that asks you to explain how you intend to use the API, and an estimate of your daily traffic levels. This information helps us evaluate your request for approval and give us a better understanding of how the community is using our APIs as we work to improve them.<br />\n<br />\nTo demonstrate how much easier this API is to use, especially for JavaScript mashups, here is a JavaScript renderer for the Blogger Buzz blog.<br />\n<br />\n<pre>&lt;html&gt;\n  &lt;script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js\"&gt;&lt;/script&gt;\n  &lt;script&gt;\n  // Request an API Key for the Blogger API from \n  // https://code.google.com/apis/console/\n  var apikey = \"YOUR API KEY HERE\";\n  \n  // You can find the blogId in the HTML source of a blog\n  var blogId = \"2399953\";\n  \n  // When the document is loaded\n  $(document).ready(function() {\n   \n    // Make a JSONP request for the Posts on the Blogger Buzz blog\n    $.ajax({\n      url:\"https://www.googleapis.com/blogger/v2/blogs/”+\n        blogId+”/posts?key=\"+apikey,\n      dataType: \"jsonp\",\n      success: function(data, textStatus, jqXHR) {\n        var items = [];   \n        // Construct a chunk of HTML for each post\n        // containing the Post title, content, and a \n        // link to the post author.\n        $.each(data.items, function(index, value) {\n          items.push(\"&lt;h2&gt;\"+value.title+\"&lt;/h2&gt;\"+value.content+\n            \"&lt;p&gt;Posted by &lt;em&gt;&lt;a href='\"+value.author.url+\"'&gt;\"+\n            value.author.displayName+\"&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;\");\n        });\n\n        // And finally, append the generated content to the page body.\n        $(items.join('')).appendTo('body');\n      }\n    });\n  });\n  &lt;/script&gt;\n&lt;/html&gt;</pre><br />\n<p>It is important to understand that this release is the first step on a journey of discovery, as we work with all of you to build a better API for using Blogger. Please review the <a href=\"https://code.google.com/apis/blogger/docs/2.0/json/getting_started.html\">documentation</a>, and join in the discussion on <a href=\"http://groups.google.com/group/bloggerdev\">Blogger Developer Group</a> and let us know what we can add to the API to make it more useful for you!</p>",
+            "author": {
+                "id": "g112374322230920073195",
+                "displayName": "Google Blogs",
+                "url": "https://www.blogger.com/profile/08434147677241700960",
+                "image": {
+                    "url": "//lh3.googleusercontent.com/-SMZmHeOVbFs/AAAAAAAAAAI/AAAAAAAATk0/uPjbSFD-07k/s35-c/photo.jpg"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/237676474877526514/comments"
+            }
+        },
+        {
+            "kind": "blogger#post",
+            "id": "115565815799777320",
+            "blog": {
+                "id": "3213900"
+            },
+            "published": "2006-08-15T16:04:00-07:00",
+            "updated": "2006-08-16T13:37:02-07:00",
+            "etag": "\"tCegCRaUD_llG4Ci20eREslQYjU/dGltZXN0YW1wOiAxMTU1NzYwNjIyMjEzCm9mZnNldDogLTI1MjAwMDAwCg\"",
+            "url": "http://blogger-developers.googleblog.com/2006/08/blogger-api-update.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/115565815799777320",
+            "title": "Blogger API Update",
+            "content": "Hi folks,<br /><br />Just posting to let subscribers to this blog's feed know that new Blogger/GData documentation is <a href=\"http://code.google.com/apis/gdata/blogger.html\">available on code.google.com</a>; please stay tuned to the <a href=\"http://groups.google.com/group/bloggerDev/\">bloggerDev discussion list</a> for updates.<br /><br />Thanks,<br />-Eric and the Blogger Team at Google",
+            "author": {
+                "id": "g112374322230920073195",
+                "displayName": "Google Blogs",
+                "url": "https://www.blogger.com/profile/08434147677241700960",
+                "image": {
+                    "url": "//lh3.googleusercontent.com/-SMZmHeOVbFs/AAAAAAAAAAI/AAAAAAAATk0/uPjbSFD-07k/s35-c/photo.jpg"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/115565815799777320/comments"
+            }
+        },
+        {
+            "kind": "blogger#post",
+            "id": "112309403820647967",
+            "blog": {
+                "id": "3213900"
+            },
+            "published": "2005-08-03T11:26:00-07:00",
+            "updated": "2005-10-14T10:51:30-07:00",
+            "etag": "\"tCegCRaUD_llG4Ci20eREslQYjU/dGltZXN0YW1wOiAxMTI5MzEyMjkwNjAwCm9mZnNldDogLTI1MjAwMDAwCg\"",
+            "url": "http://blogger-developers.googleblog.com/2005/08/blogmarks-support.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/112309403820647967",
+            "title": "BlogMarks support",
+            "content": "François Hodierne <a href=\"http://groups-beta.google.com/group/bloggerDev/browse_thread/thread/e19f8983e2e348af/9fce90757e82acbe\">recently implemented</a> Blogger Atom API support on blogmarks.net:<blockquote>\"The good news is that this PHP/PEAR implementation is open source and immediately available. Be careful, this is not very seriously tested.\"<br /><br />You can get it from here:<br /><br /><ul><li>the class: <a href=\"http://www.blogmarks.net/files/Services_Blogger_03.zip\">blogmarks.net/files/Services_Blogger_03.zip</a></li><br /><li>a package with all dependencies: <a href=\"http://www.blogmarks.net/files/Services_Blogger_03-package.zip\">blogmarks.net/files/Services_Blogger_03-package.zip</a></li><br /><li>for documentation and feedback, i started a wiki page on the blogmarks.net wiki about it: <a href=\"http://dev.blogmarks.net/wiki/ServicesBloggerPhpClient\">dev.blogmarks.net/wiki/ServicesBloggerPhpClient</a></li></ul></blockquote>",
+            "author": {
+                "id": "g112374322230920073195",
+                "displayName": "Google Blogs",
+                "url": "https://www.blogger.com/profile/08434147677241700960",
+                "image": {
+                    "url": "//lh3.googleusercontent.com/-SMZmHeOVbFs/AAAAAAAAAAI/AAAAAAAATk0/uPjbSFD-07k/s35-c/photo.jpg"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/112309403820647967/comments"
+            }
+        },
+        {
+            "kind": "blogger#post",
+            "id": "112266929401715464",
+            "blog": {
+                "id": "3213900"
+            },
+            "published": "2005-07-29T13:27:00-07:00",
+            "updated": "2005-10-14T10:51:44-07:00",
+            "etag": "\"tCegCRaUD_llG4Ci20eREslQYjU/dGltZXN0YW1wOiAxMTI5MzEyMzA0NjgzCm9mZnNldDogLTI1MjAwMDAwCg\"",
+            "url": "http://blogger-developers.googleblog.com/2005/07/two-minor-updates.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/112266929401715464",
+            "title": "Two Minor Updates",
+            "content": "We've just added two new sections to Blogger's <a href=\"http://code.blogger.com/archives/atom-docs.html\">Atom API documentation</a>:<br /><br /><ul><li><a href=\"http://code.blogger.com/archives/atom-docs.html#draft\">Save a Post as Draft</a></li><li><a href=\"http://code.blogger.com/archives/atom-docs.html#extensions\">Blogger Extensions</a></li> </ul><span style=\"font-style: italic;\">Draft</span> is what you'd expect it to be. <span style=\"font-style: italic;\">Extensions</span> is where we'll be documenting Blogger-specific additions to the API, such as Line Break Status (the only one listed at the moment).<br /><br />Please post any questions or comments to <a href=\"http://groups-beta.google.com/group/bloggerDev/\">bloggerDev</a>.",
+            "author": {
+                "id": "g112374322230920073195",
+                "displayName": "Google Blogs",
+                "url": "https://www.blogger.com/profile/08434147677241700960",
+                "image": {
+                    "url": "//lh3.googleusercontent.com/-SMZmHeOVbFs/AAAAAAAAAAI/AAAAAAAATk0/uPjbSFD-07k/s35-c/photo.jpg"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/112266929401715464/comments"
+            }
+        },
+        {
+            "kind": "blogger#post",
+            "id": "111074986653137431",
+            "blog": {
+                "id": "3213900"
+            },
+            "published": "2005-03-14T17:25:00-08:00",
+            "updated": "2013-04-18T17:05:47-07:00",
+            "etag": "\"tCegCRaUD_llG4Ci20eREslQYjU/dGltZXN0YW1wOiAxMzY2MzI5OTQ3NjM5Cm9mZnNldDogLTI1MjAwMDAwCg\"",
+            "url": "http://blogger-developers.googleblog.com/2005/03/atom-api-update.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/111074986653137431",
+            "title": "Atom API Update",
+            "content": "A long-overdue Atom API update just went live. Aside from lots of bug fixes, full i18n support is present via UTF-8, and authentication now works securely via Basic HTTP Auth over SSL at the Atom endpoint: <code>https://www.blogger.com/atom</code><br /><br /><a href=\"http://code.blogspot.com/archives/atom-docs.html\">Documentation</a> is live too, and feel free to post to the <a href=\"http://groups-beta.google.com/group/bloggerDev/\">BloggerDev list</a> if you need technical assistance. Be sure to search the list archives first however, in case your issue has already been addressed. Note that Post Titles now work seemlessly <a href=\"http://code.blogspot.com/archives/atom-docs.html#create-post\">via the API</a>.<br /><br />We've already been testing an updated version of Adriaan Tijsseling's <a href=\"http://ecto.kung-foo.tv/\">Ecto</a>, and we'd love to hear from anyone else making progress with their Blogger/Atom apps. You can email us at support AT blogger.com, subject=BDN.<br /><br />Thanks for your patience as we've worked on shipping this API milestone!",
+            "author": {
+                "id": "g112374322230920073195",
+                "displayName": "Google Blogs",
+                "url": "https://www.blogger.com/profile/08434147677241700960",
+                "image": {
+                    "url": "//lh3.googleusercontent.com/-SMZmHeOVbFs/AAAAAAAAAAI/AAAAAAAATk0/uPjbSFD-07k/s35-c/photo.jpg"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/111074986653137431/comments"
+            }
+        },
+        {
+            "kind": "blogger#post",
+            "id": "110073921563937877",
+            "blog": {
+                "id": "3213900"
+            },
+            "published": "2004-01-22T17:24:00-08:00",
+            "updated": "2013-04-18T17:06:07-07:00",
+            "etag": "\"tCegCRaUD_llG4Ci20eREslQYjU/dGltZXN0YW1wOiAxMzY2MzI5OTY3NjY5Cm9mZnNldDogLTI1MjAwMDAwCg\"",
+            "url": "http://blogger-developers.googleblog.com/2004/01/blogger-gets-atomenabled.html",
+            "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/110073921563937877",
+            "title": "Blogger gets AtomEnabled",
+            "content": "<p>Today, we launched support for Atom in Blogger. This means that all Blogger users now have the ability to syndicate their blog content in a rich XML format (see <a href=\"http://help.blogger.com/bin/answer.py?answer=697&topic=36\" title=\"What is Atom? | Knowledge Base article\">What is Atom?)</a>. In addition, we have rolled out beta support for <a href=\"http://www.atomenabled.org/developers/\">the Atom API</a>. This means a more robust API for you to use in creating new blogging applications. Some of the benefits of the new API are:<ul><li>support for titles<li>tighter integration with the\r<br />syndication format and editing tools<li>extensibility<li> easy-to-use WSDL file to work with most SOAP toolkits<li>higher security authentication using WSSE<li>more robust Blogger endpoint<li>support for SOAP and REST</ul></p><p>More documentation will follow in the next few weeks as the Atom API moves to version 1.0. In the meanwhile, you may want to try the <a href=\"http://www.atomenabled.org/developers/api/SampleClient.cs\">SOAP Atom API client in C#</a> and this <a href=\"http://www.atomenabled.org/developers/api/AtomAPI.wsdl\">WSDL file</a>. You should be able to drop this WSDL file into most developer tools. You can test this client against our Atom API endpoint at: <code>http://www.blogger.com/atom/</code>. You should enter the endpoint where it currently says <code>http://localhost/AtomApi.asmx</code> in the WSDL. For more general Atom information visit <a href=\"http://www.atomenabled.org\">AtomEnabled.org</a>.</p><p>As always, <a href=\"javascript:var e1='tr&#097;%6b%6b%65&#110;%2e%63%6f%6d?%73&#117;b%6a&#101;%63%74=BDN',e2='&#109;&#097;&#105;&#108;&#116;&#111;&#058;%20', e3='&#098;%6cog%67%65&#114;';var e0=e2+e3+'%40'+e1;(window.location?window.location.replace(e0):document.write(e0));\" title=\"&#102;&#101;&#101;&#100;&#098;&#097;&#099;&#107;&#032;&#097;&#110;&#100;&#032;&#099;&#111;&#109;&#109;&#101;&#110;&#116;&#115;&#032;&#097;&#112;&#112;&#114;&#101;&#114;&#101;&#099;&#105;&#097;&#116;&#101;&#100;\">&#102;&#101;&#101;&#100;&#098;&#097;&#099;&#107;&#032;&#097;&#110;&#100;&#032;&#099;&#111;&#109;&#109;&#101;&#110;&#116;&#115;&#032;&#097;&#114;&#101;&#032;&#097;&#112;&#112;&#114;&#101;&#099;&#105;&#097;&#116;&#101;&#100;</a>.\r<br />\r<br />[originally posted by <a href=\"http://www.blogger.com/profile/27246\">Shellen</a>]",
+            "author": {
+                "id": "g112374322230920073195",
+                "displayName": "Google Blogs",
+                "url": "https://www.blogger.com/profile/08434147677241700960",
+                "image": {
+                    "url": "//lh3.googleusercontent.com/-SMZmHeOVbFs/AAAAAAAAAAI/AAAAAAAATk0/uPjbSFD-07k/s35-c/photo.jpg"
+                }
+            },
+            "replies": {
+                "totalItems": "0",
+                "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3213900/posts/110073921563937877/comments"
+            }
+        }
+    ],
+    "etag": "\"tCegCRaUD_llG4Ci20eREslQYjU/C1zbPuNQsec54nHgbuFaoEOc0qY\""
+}
